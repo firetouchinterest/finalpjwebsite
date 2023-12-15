@@ -1,0 +1,129 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Poppins", comicsansms;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:rgb(255, 255, 255);
+}
+
+/* */ /* */ /* */ 
+
+.pimg1, .pimg2, .pimg3
+{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* */ /* */ /* */ 
+
+.pimg1
+{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXDiDtwm_fK1V-p54ctnUqE6qsnYxBUDp098IN9Hfkw&s');
+    min-height: 100%;
+}
+
+/* */ /* */ /* */ 
+
+.pimg2
+{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6fd-lbpf4M-MJOzdycwOwP20t9m2iSIx_m0dOT5yagp0XjZN6Eq2E8DcDkhx1E8T6G5g&usqp=CAU');
+    min-height: 100%;
+}
+
+/* */ /* */ /* */ 
+
+.pimg3
+{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYwp6YSHQqRAkNMEAcZXnUYTmkZECvDPWYVafGJnt9U-EZNu0iJiVOMrI-77TA_CyyJHk&usqp=CAU');
+    min-height: 100%;
+}
+
+/* */ /* */ /* */ 
+
+.section
+{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+/* */ /* */ /* */ 
+
+.section-light
+{
+    background-color: green;
+    color:beige;
+}
+
+/* */ /* */ /* */ 
+
+.section-dark
+{
+    background-color: green;
+    color:beige;
+}
+
+/* */ /* */ /* */ 
+
+.ptext
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+/* */ /* */ /* */ 
+
+.ptext .border
+{
+    background-color: lightblue;
+    color:rgb(255, 0, 43);
+    padding: 20px;
+}
+
+/* */ /* */ /* */ 
+
+.ptext .border .trans
+{
+    background-color: transparent;
+}
+
+/* */ /* */ /* */ 
+
+a
+{
+    color:orange;
+    text-decoration: none;
+}
+
+/* */ /* */ /* */ 
+
+a:visited 
+{
+    color: rgb(0,255,255)
+}
+
+/* */ /* */ /* */ 
+
+a:hover 
+{
+    color: rgb(255,0,255)
+}
+
+/* */ /* */ /* */ 
+
+@media(max-width:568px)
+{
+    .pimg1, .pimg2, .pimg3 {background-attachment:scroll}
+}
